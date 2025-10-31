@@ -182,6 +182,12 @@ locals {
       value = "http://localhost:8000"
     },
 
+    # Media
+    {
+      name  = "SHALLWE_GLOBAL_MEDIA_STORAGE_URL_EXTERNAL"
+      value = local.pub_address
+    },
+
     # Oauth
     {
       name  = "SHALLWE_GLOBAL_OAUTH_CLIENT_ID"
